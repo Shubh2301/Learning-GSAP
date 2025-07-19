@@ -14,11 +14,42 @@ body{
     height: 100%;
     width: 100%;
     background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 #cursor{
-    height: 20px;
-    width: 20px;
+    height: 22px;
+    width: 22px;
     background-color: white;
     border-radius: 50%;
     position: fixed;
+    font-size: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+     z-index: 9;
+    
 }                    
+#image{
+    height: 30vw;
+    width: 60vw;
+    background-color: crimson;
+    position: relative;
+   
+}
+
+#image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#overlay{
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 10;
+
+}
